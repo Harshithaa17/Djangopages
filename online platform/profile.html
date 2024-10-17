@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="C:\Users\LENOVO\Desktop\online platform\profile_style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="C:\Users\LENOVO\Desktop\online platform\index.html">Projects</a></li>
+                <li><a href="C:\Users\LENOVO\Desktop\online platform\view.html">View Project</a></li>
+                <li><a href="C:\Users\LENOVO\Desktop\online platform\profile.html">Profile</a></li>
+                <li><a href="C:\Users\LENOVO\Desktop\online platform\login.html">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="container">
+        <h2>User Profile</h2>
+        <div class="user-info">
+            <img src="user-avatar.jpg" alt="User Avatar">
+            <h3>apasham kiri kiri</h3>
+            <p>Email: zimbambe@example.com</p>
+            <!-- Display other user information here -->
+        </div>
+        
+        <div class="profile-edit">
+            <h3>Edit Profile</h3>
+            <form id="editProfileForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" value="" required><br><br>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" value="" required><br><br>
+                
+                <label for="avatar">Avatar:</label>
+                <input type="file" id="avatar" name="avatar" accept="image/*"><br><br>
+                
+                <button type="submit">Save Changes</button>
+            </form>
+        </div>
+        <div class="uploaded-files">
+            <h3>Uploaded Files</h3>
+            <ul id="fileList"></ul>
+        </div>
+    </div>
+
+    <script src="C:\Users\LENOVO\Desktop\online platform\profile-script.js"></script>
+</body>
+</html>
